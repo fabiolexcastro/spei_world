@@ -4,7 +4,7 @@
 # Load --------------------------------------------------------------------
 require(pacman)
 p_load(
-  terra, fs, sf, tidyverse, gtools, stringr, geodata, ggspatial
+  terra, fs, sf, FAOSTAT, glue, openxlsx, exactextractr, classInt, RColorBrewer, tidyverse, gtools, stringr, geodata, ggspatial
 )
 
 g <- gc(reset = T)
